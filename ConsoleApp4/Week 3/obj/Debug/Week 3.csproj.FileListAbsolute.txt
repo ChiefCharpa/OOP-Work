@@ -1,0 +1,7 @@
+C:\Users\Computing\source\repos\Week 3\Week 3\obj\Debug\Week 3.csproj.AssemblyReference.cache
+C:\Users\Computing\source\repos\Week 3\Week 3\obj\Debug\Week 3.csproj.CoreCompileInputs.cache
+C:\Users\Computing\source\repos\Week 3\Week 3\bin\Debug\Week 3.exe.config
+C:\Users\Computing\source\repos\Week 3\Week 3\bin\Debug\Week 3.exe
+C:\Users\Computing\source\repos\Week 3\Week 3\bin\Debug\Week 3.pdb
+C:\Users\Computing\source\repos\Week 3\Week 3\obj\Debug\Week 3.exe
+C:\Users\Computing\source\repos\Week 3\Week 3\obj\Debug\Week 3.pdb
