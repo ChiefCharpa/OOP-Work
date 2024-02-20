@@ -37,11 +37,16 @@ namespace CMP1903M_Workshops
         {
             try
             {
+                if (history.Count == 0)
+                {
+                    throw new EmptyHistoryException("History is empty. Cannot remove last page.");
+                }
                 history.Pop();
                 return true;
             }
-            catch
+            catch (EmptyHistoryException ex)
             {
+                Console.WriteLine($"Error: {ex.Message}");
                 return false;
             }
         }
