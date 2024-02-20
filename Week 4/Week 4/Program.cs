@@ -30,12 +30,51 @@ namespace Week_4
 
             //example of creating a page with a title and URL
             //Test... remove this when you have seen it working
-            Page p = new Page("Test Page", "http://www.lincoln.ac.uk");
-            Console.WriteLine(p.Address);
+            //Page p = new Page("Test Page", "http://www.lincoln.ac.uk");
+            //Console.WriteLine(p.Address);
             //.......
 
-            //creating a new, empty history
-            History h1 = new History();
+            try
+            {
+                //creating a new, empty history
+                History h1 = new History();
+                // Create a 3 page object
+                Page p1 = new Page("Lincoln page", "http://www.lincoln.ac.uk");
+                Page p2 = new Page("School of computer science Page", "http://www.lincoln.ac.uk/socs/");
+                Page p3 = new Page("Student life Page", "http://www.lincoln.ac.uk/studentlefe");
+
+                // Create a page object
+                //Page p = new Page("Test Page", "http://www.lincoln.ac.uk");
+                //Display the page object in the screen
+                Console.WriteLine(p1.Address);
+                h1.Add(p1);
+                Console.WriteLine(p2.Address);
+                h1.Add(p2);
+                Console.WriteLine(p3.Address);
+                h1.Add(p3);
+                h1.PrintHistory();
+
+
+                bool removed = h1.RemoveLastPage();
+                if (removed)
+                {
+                    Console.WriteLine("Last page removed successfully. ");
+                }
+                else
+                {
+                    Console.WriteLine("Failed to remove last page as the last page is empty. ");
+                }
+                Console.WriteLine("History: ");
+                foreach (var p in h1.GetHistory())
+                {
+                    Console.WriteLine(p.Address);
+                }
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            Console.ReadKey();
 
 
         }

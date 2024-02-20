@@ -15,8 +15,16 @@ namespace CMP1903M_Workshops
         //constructor
         public Page(string t, string a)
         {
-            Title = t;
-            Address = new Uri(a);
+            if(!Uri.IsWellFormedUriString(t, UriKind.Absolute))
+            {
+                throw new ArgumentException("Invalid URL format. "+ nameof(a));
+            }
+            else 
+            {
+                Title = t;
+                Address = new Uri(a);
+            }
+            
         }
 
 
