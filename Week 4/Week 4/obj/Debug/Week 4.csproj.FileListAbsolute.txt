@@ -1,0 +1,7 @@
+C:\Users\Computing\Documents\GitHub\OOP-Work\Week 4\Week 4\bin\Debug\Week 4.exe.config
+C:\Users\Computing\Documents\GitHub\OOP-Work\Week 4\Week 4\bin\Debug\Week 4.exe
+C:\Users\Computing\Documents\GitHub\OOP-Work\Week 4\Week 4\bin\Debug\Week 4.pdb
+C:\Users\Computing\Documents\GitHub\OOP-Work\Week 4\Week 4\obj\Debug\Week 4.csproj.AssemblyReference.cache
+C:\Users\Computing\Documents\GitHub\OOP-Work\Week 4\Week 4\obj\Debug\Week 4.csproj.CoreCompileInputs.cache
+C:\Users\Computing\Documents\GitHub\OOP-Work\Week 4\Week 4\obj\Debug\Week 4.exe
+C:\Users\Computing\Documents\GitHub\OOP-Work\Week 4\Week 4\obj\Debug\Week 4.pdb
