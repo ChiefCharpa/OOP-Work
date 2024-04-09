@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountBase.cs" />
+    <Compile Include="BasicAccount.cs" />
+    <Compile Include="IAccount.cs" />
+    <Compile Include="IAccountReport.cs" />
+    <Compile Include="PremiumAccount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

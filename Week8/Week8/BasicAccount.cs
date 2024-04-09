@@ -22,10 +22,11 @@ namespace CMP1903M_Workshops
         }
 
         //constructor setting balance to value
-        public BasicAccount(decimal value, string AccName)
+        public BasicAccount(int accNumber, string AccName, decimal value)
         {
             Balance = value;
             AccountName = AccName;
+            AccountNumber = accNumber;
         }
 
         //Deposit method
